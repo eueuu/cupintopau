@@ -1,19 +1,24 @@
 // Array de músicas (como se fosse um banco de dados)
 const musicas = [
     {
-        titulo: "Bohemian Rhapsody",
-        artista: "Queen",
-        capaUrl: "imagens/bohemian.jpg"
+        titulo: "My Way Home Is Through You",
+        artista: "My Chemical Romance",
+        capaUrl: "imagens/mcr.jpg"
     },
     {
-        titulo: "Billie Jean",
-        artista: "Michael Jackson",
-        capaUrl: "imagens/billie-jean.jpg"
+        titulo: "Match Into Water",
+        artista: "Pierce The Veil",
+        capaUrl: "imagens/ptv.jpg"
     },
     {
-        titulo: "Garota de Ipanema",
-        artista: "Tom Jobim",
-        capaUrl: "imagens/ipanema.jpg"
+        titulo: "The Adults Are Talking",
+        artista: "The Strokes",
+        capaUrl: "imagens/strokes.jpg"
+    },
+    {
+        titulo: "Dr. Sunshine is Dead",
+        artista: "Will Wood and the Tapeworms",
+        capaUrl: "imagens/willwood.jpg"
     }
 ];
 
