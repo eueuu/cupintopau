@@ -1,10 +1,15 @@
-/* DÚVIDAS E RESPOSTAS SOBRE O CÓDIGO
+/* DÚVIDAS SOBRE O CÓDIGO CSS
 
-P: O que é um card do Spotify?
-R: É uma caixa que mostra: imagem do álbum, nome da música e artista
+P: "q q é esse card do spotify?"
+R: Caixinha/quadrado que mostra:
+   - Imagem da capa do álbum/música
+   - Nome da música
+   - Nome do artista
 
-P: Como funciona o hover sem JavaScript?
-R: O :hover é recurso do CSS (pseudo-classe) para detectar quando o mouse passa por cima
+P: "mas esse efeito de hover não faz com o js e não com o css?"
+R: Não! O :hover é um recurso do CSS. Para efeitos simples como mudar cor
+   quando passa o mouse, o CSS é suficiente. JavaScript seria necessário
+   para efeitos mais complexos.
 
 */
 
