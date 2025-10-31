@@ -1,0 +1,39 @@
+/* DÚVIDAS E RESPOSTAS SOBRE O CÓDIGO
+
+P: O que é um card do Spotify?
+R: É uma caixa que mostra: imagem do álbum, nome da música e artista
+
+P: Como funciona o hover sem JavaScript?
+R: O :hover é recurso do CSS (pseudo-classe) para detectar quando o mouse passa por cima
+
+*/
+
+/* Estilo do card de música */
+.musica-card {
+    background: #282828;  /* Cor de fundo escura como no Spotify */
+    border-radius: 8px;   /* Arredonda as bordas */
+    padding: 16px;        /* Espaço interno */
+    width: 200px;         /* Largura fixa do card */
+    color: white;         /* Cor do texto */
+    transition: background-color 0.3s;  /* Suaviza a mudança de cor */
+}
+
+.musica-card:hover {
+    background: #3E3E3E;  /* Cor mais clara quando passa o mouse */
+}
+
+.musica-card img {
+    width: 100%;          /* Imagem ocupa toda largura do card */
+    border-radius: 4px;   /* Arredonda as bordas da imagem */
+}
+
+.musica-card h3 {
+    margin: 12px 0 4px 0;  /* Espaçamento: topo direita baixo esquerda */
+    font-size: 16px;       /* Tamanho do texto */
+}
+
+.musica-card p {
+    color: #B3B3B3;        /* Cinza claro para o nome do artista */
+    font-size: 14px;       /* Texto menor que o título */
+    margin: 0;             /* Remove margens */
+}
