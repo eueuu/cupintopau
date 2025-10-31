@@ -1,5 +1,14 @@
-/* <span class="precode-question">
-   P: "o que é esse array de dados e como o js cria os cards de forma automatica?"
+/* <span class="precode-question// P: "então eu tinha feito um card no html / css. o java script agora só pegou esse modelo ed codigo e duplicou?"
+// R: Quase isso! O CSS é como uma receita que diz como o card deve parecer,
+//    e o JavaScript usa essa receita para criar vários cards diferentes,
+//    cada um com sua própria música.
+
+// P: "Agora, vamos mostrar esses dados no site. Como fazemos isso?"
+// R: Precisamos:
+//    1. Criar uma div no HTML com id='lista-de-musicas'
+//    2. No JavaScript, pegar essa div usando getElementById
+//    3. Criar os cards dentro dessa div em vez de direto no body
+//    4. Esperar a página carregar usando DOMContentLoaded   P: "o que é esse array de dados e como o js cria os cards de forma automatica?"
    R: Array é como uma lista numerada de músicas. O JS funciona como um robô:
       - Lê cada música da lista
       - Pega o "molde" do card
