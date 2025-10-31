@@ -1,9 +1,11 @@
-// P: "o que é esse array de dados e como o js cria os cards de forma automatica?"
-// R: Array é como uma lista numerada de músicas. O JS funciona como um robô:
-//    - Lê cada música da lista
-//    - Pega o "molde" do card
-//    - Preenche com as informações da música
-//    - Coloca na página
+/* <span class="precode-question">
+   P: "o que é esse array de dados e como o js cria os cards de forma automatica?"
+   R: Array é como uma lista numerada de músicas. O JS funciona como um robô:
+      - Lê cada música da lista
+      - Pega o "molde" do card
+      - Preenche com as informações da música
+      - Coloca na página
+   </span> */
 const musicas = [
     {
         titulo: "My Way Home Is Through You",
@@ -27,10 +29,12 @@ const musicas = [
     }
 ];
 
-// P: "então eu tinha feito um card no html / css. o java script agora só pegou esse modelo ed codigo e duplicou?"
-// R: Quase isso! O CSS é como uma receita que diz como o card deve parecer,
-//    e o JavaScript usa essa receita para criar vários cards diferentes,
-//    cada um com sua própria música.
+/* <span class="precode-question">
+   P: "então eu tinha feito um card no html / css. o java script agora só pegou esse modelo ed codigo e duplicou?"
+   R: Quase isso! O CSS é como uma receita que diz como o card deve parecer,
+      e o JavaScript usa essa receita para criar vários cards diferentes,
+      cada um com sua própria música.
+   </span> */
 function criarCards() {
     const container = document.body;
     
@@ -64,3 +68,8 @@ criarCards();
 //    - Seu próprio título
 //    - Seu próprio artista
 //    - A capa do álbum onde ela está
+
+// P: "pq tem um m no apps js e ele tá em laranja?"
+// R: O 'm' indica que o arquivo foi modificado (modified) mas as mudanças
+//    ainda não foram salvas no git. A cor laranja no VS Code também indica isso.
+//    Para resolver: usar 'git add app.js' e depois 'git commit'
