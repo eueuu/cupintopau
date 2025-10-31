@@ -24,6 +24,12 @@ P: Como esse array será usado?
 R: JavaScript vai pegar esses dados e criar os cards do Spotify 
    automaticamente para cada música da lista.
 
+P: Por que os dados não aparecem no site?
+R: Precisamos de 3 coisas:
+   1. Conectar o app.js no HTML usando <script src="app.js">
+   2. Criar uma função que transforma os dados em cards visíveis
+   3. Chamar essa função quando a página carregar
+
 */
 
 // Array de músicas (como se fosse um banco de dados)
