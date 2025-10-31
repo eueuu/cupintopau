@@ -1,0 +1,29 @@
+/* Estilo do card de música */
+.musica-card {
+    background: #282828;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.musica-card:hover {
+    background: #3E3E3E;
+}
+
+.musica-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.musica-card h3 {
+    margin: 12px 0 4px 0;
+    font-size: 16px;
+}
+
+.musica-card p {
+    color: #B3B3B3;
+    font-size: 14px;
+    margin: 0;
+}
